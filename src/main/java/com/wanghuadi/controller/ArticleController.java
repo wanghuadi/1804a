@@ -34,6 +34,7 @@ public class ArticleController {
 		PageHelper.startPage(pageNum, 3);
 		List<Article> list = articleService.queryAll(map);
 		PageInfo<Article> page = new PageInfo<Article>(list);
+		////
 		model.addAttribute("page", page);
 		return "list";
 	}
