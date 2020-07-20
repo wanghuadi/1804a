@@ -5,7 +5,7 @@ public class Article {
 
 	private String title;// 标题
 
-	private String content;// 内容
+	private String content;// 内容。。。。
 
 	private Integer status;//	审核状态(0 审核成功   1 审核失败)
 
